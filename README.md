@@ -17,6 +17,6 @@ $ docker run --rm --name my-container -d -p 8080:8080 ekramalikazi/bot-backend
 Now visit http://localhost:8080
 
 ```
-http://localhost:8080/api/jenkins/call
+http://localhost:8080/api/jenkins/call 
 ```
 
