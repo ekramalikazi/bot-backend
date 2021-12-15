@@ -11,7 +11,7 @@ $ docker build -t ekramalikazi/bot-backend .
 ### Run the container
 Create a container from the image.
 ```
-$ docker run --name my-container -d -p 8080:8080 ekramalikazi/bot-backend
+$ docker run --rm --name my-container -d -p 8080:8080 ekramalikazi/bot-backend
 ```
 
 Now visit http://localhost:8080
